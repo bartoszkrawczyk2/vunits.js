@@ -112,7 +112,7 @@
         }
 
         if (ruleMatchMax) {
-            for (var l = 0, rLen4 = ruleMatchMax.length; l < rLen3; l++) {
+            for (var l = 0, rLen4 = ruleMatchMax.length; l < rLen4; l++) {
                 outputStylesheet = outputStylesheet.replace(ruleMatchMax[l], (parseFloat('0'+ruleMatchMax[l])*0.01*vmax)+'px');
             }
         }
