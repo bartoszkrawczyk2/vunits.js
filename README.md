@@ -7,8 +7,8 @@ vunits.js has no built-in viewport units support detection. You have to detect m
 - - -
 Example usage (using Modernizr and RequireJS):
 ```js
-  if (!Modernizr.cssvwunit) {
-    if (!window.vunits) requirejs(['vunits.min']);
+  if (!Modernizr.cssvwunit && !window.vunits) {
+    requirejs(['vunits.min']);
   }
 ```  
 Example usage (using IE conditional comments):
