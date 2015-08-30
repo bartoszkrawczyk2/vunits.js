@@ -1,0 +1,74 @@
+@mixin cf() {
+    &:before,
+    &:after {
+        content: " ";
+        display: table;
+    }
+
+    &:after {
+        clear: both;
+    }
+}
+
+* {
+    box-sizing: border-box;
+
+    &:before, &:after {
+        box-sizing: border-box;
+    }
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    padding-top: 10vmin;
+    position: relative;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 100;
+}
+
+a, a:visited, a:hover {
+    color: #E80288;
+    text-decoration: none;
+}
+
+.square {
+    background: #140077;
+    color: #fff;
+    width: 65vmin;
+    height: 65vmin;
+    margin: auto;
+    text-align: center;
+    line-height: 65vmin;
+    font-size: 7.5vmin;
+}
+
+footer {
+    background: #ccc;
+    color: #656565;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 1.7vw;
+    padding: 1.5vw 3vw;
+    @include cf();
+
+    strong {
+        color: #140077;
+    }
+
+    .left {
+        float: left;
+    }
+
+    .right {
+        float: right;
+    }
+}
+
+

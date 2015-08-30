@@ -1,0 +1,30 @@
+{
+  "name": "vunits.js",
+  "version": "0.0.1",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bartoszkrawczyk2/vunits.js"
+  },
+  "author": "Bartosz Krawczyk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bartoszkrawczyk2/vunits.js/issues"
+  },
+  "homepage": "https://github.com/bartoszkrawczyk2/vunits.js",
+  "devDependencies": {
+    "gulp": "*",
+    "gulp-autoprefixer": "*",
+    "gulp-sass": "*",
+    "gulp-sourcemaps": "*",
+    "gulp-uglify": "*",
+    "gulp-util": "*",
+    "gulp-minify-css": "*",
+    "gulp-connect": "*",
+    "gulp-rename": "*"
+  }
+}
