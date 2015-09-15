@@ -17,6 +17,7 @@ Example usage (using IE conditional comments):
   <script src="js/vunits.min.js"></script>
 <![endif]-->
 ```
+Note: vunits.js doesn't work with inline styles and imported styles (`@import` rule). It can be slow with very large stylesheets.
 
 ## Demo
 http://projects.bartoszkrawczyk.com/vunits/
