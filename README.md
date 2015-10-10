@@ -22,5 +22,10 @@ Note: vunits.js doesn't work with inline styles and imported styles (`@import` r
 ## Demo
 http://projects.bartoszkrawczyk.com/vunits/
 
+## todo
+* full IE < 9 support
+* performance optimalization
+* @import support
+
 ## License
 MIT License
